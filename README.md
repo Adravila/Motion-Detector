@@ -2,7 +2,9 @@
 Sistema dedicado para la detección de objectos con un sensor de movimiento Arduino en el cuál realiza una captura de imagen a partir de una webcam, posteriormente lo sube a imgur y finalmente se publica un mensaje a partir de una cuenta de Twitter con la fecha, hora y la imagen con el enlace de imgur.
 
 ![](http://i.imgur.com/5S0eWoE.png)
-
+## Autores del trabajo
+- Adrián Dávila Guerra
+- Esperanza Cano Canalejas
 ## ¿Qué hemos utilizado?
 ### Hardware:
 - Sensor de movimiento (Arduino)
@@ -159,10 +161,8 @@ https://dzone.com/articles/running-mule-4-on-raspberry-pi
 
 Una vez hecho, insertamos la línea ```su - mule``` y entramos en la siguiente dirección:
 ```cd /opt/mule/mule-standalone-3.9.0/app```
-
 Pondremos nuestro proyecto comprimido con un .zip, no será necesario descomprimirlo dado que MuleSoft lo realiza de forma automática cuando ejecute dicha app. Acto seguido, nos movemos a la siguiente ruta:
 ```cd /opt/mule/mule-standalone-3.9.0/bin/```
-
 Ejecutamos mule vía sh, añadimos dos argumentos: uno para arrancar la aplicación y el otro para que ejecute el código de Python en Cpython en lugar de Jpython, para que podamos utilizar los módulos de imgurpython y requests necesarios.
 ```
 mule@raspberrypi:/opt/mule/mule-standalone-3.9.0/bin$ sudo ./mule -app proyecto -M-Dpython.path=/home/pi/.local/lib/python2.7/site-packages

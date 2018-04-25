@@ -144,7 +144,7 @@ def ImgUR():
 result = ImgUR()
 ```
 
-## Otras fuentes (por completar):
+## Por completar
 Standalone Mule 3.9.0
 https://developer.mulesoft.com/download-mule-esb-runtime
 
@@ -153,3 +153,5 @@ mule@raspberrypi:/opt/mule/mule-standalone-3.9.0/bin$ sudo ./mule -app proyecto 
 Enlace del proyecto de Mule (ver 3.9.0)
 https://drive.google.com/open?id=1rt4swIM7tdoJAjRu6q5YySFOWAcjxdwz
 
+## Fuentes externas
+- http://fpaez.com/sensor-de-movimiento-infrarojo-hc-sr501/

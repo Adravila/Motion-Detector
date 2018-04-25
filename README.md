@@ -159,8 +159,10 @@ https://dzone.com/articles/running-mule-4-on-raspberry-pi
 
 Una vez hecho, insertamos la línea ```su - mule``` y entramos en la siguiente dirección:
 ```cd /opt/mule/mule-standalone-3.9.0/app```
+
 Pondremos nuestro proyecto comprimido con un .zip, no será necesario descomprimirlo dado que MuleSoft lo realiza de forma automática cuando ejecute dicha app. Acto seguido, nos movemos a la siguiente ruta:
 ```cd /opt/mule/mule-standalone-3.9.0/bin/```
+
 Ejecutamos mule vía sh, añadimos dos argumentos: uno para arrancar la aplicación y el otro para que ejecute el código de Python en Cpython en lugar de Jpython, para que podamos utilizar los módulos de imgurpython y requests necesarios.
 ```
 mule@raspberrypi:/opt/mule/mule-standalone-3.9.0/bin$ sudo ./mule -app proyecto -M-Dpython.path=/home/pi/.local/lib/python2.7/site-packages

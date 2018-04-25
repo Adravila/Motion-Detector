@@ -13,7 +13,9 @@ Sistema dedicado para la detección de objectos con un sensor de movimiento Ardu
 ### Sofware:
 - Raspbian
 - Python 2.7
-- imgurpython
+- API de imgurpython
+- API de Twitter
+- Mule Standalone 3.9.0
 
 ## Acceso a la Raspberry Pi
 ### Configuración de la red
@@ -27,8 +29,8 @@ ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 
 network={
- ssid="my ssid"
- psk="my psk"
+ ssid="mi_ssid"
+ psk="mi_psk"
  key_mgmt=WPA-PSK 
 }
 ```

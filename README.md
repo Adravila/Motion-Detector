@@ -8,6 +8,7 @@ Sistema dedicado para la detección de objectos con un sensor de movimiento Ardu
 - Sensor de movimiento (Arduino)
 - Raspberry Pi 3 Model B+
 - Componentes del Ultimate Starter Kit de la Raspberry Pi
+- WebCam compatible para la Raspberry
 
 ### Sofware:
 - Raspbian

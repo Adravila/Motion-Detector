@@ -31,7 +31,7 @@ network={
  key_mgmt=WPA-PSK 
 }
 ```
-Con ello, de forma automática el *boot* generará los ficheros necesarios dentro de */media/usuario/rootfs*. Dentro de este directorio añadimos unas líneas al fichero */media/saged/rootfs/etc/dhcpd.conf* para que podamos conectar de forma estática, por ejemplo:
+Con ello, de forma automática el *boot* generará los ficheros necesarios dentro de */media/usuario/rootfs*. Dentro de este directorio añadimos unas líneas al fichero */media/usuario/rootfs/etc/dhcpd.conf* para que podamos conectar de forma estática, por ejemplo:
 ```
 interface wlan0 
 static ip_address=192.168.0.3/24 

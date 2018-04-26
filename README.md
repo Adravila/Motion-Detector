@@ -7,7 +7,7 @@ Sistema dedicado para la detección de objectos con un sensor de movimiento Ardu
 - Esperanza Cano Canalejas
 ## ¿Qué hemos utilizado?
 ### Hardware:
--[https://www.amazon.es/Neuftech-Sensor-Motion-Infrarrojos-Piroelectricidad/dp/B01C6O9C38/ref=sr_1_1?ie=UTF8&qid=1524738515&sr=8-1&keywords=sensor+de+movimiento+arduino](Sensor de movimiento Arduino)
+-[Sensor de movimiento Arduino](https://www.amazon.es/Neuftech-Sensor-Motion-Infrarrojos-Piroelectricidad/dp/B01C6O9C38/ref=sr_1_1?ie=UTF8&qid=1524738515&sr=8-1&keywords=sensor+de+movimiento+arduino)
 -[https://www.amazon.es/Raspberry-Pi-RPI-Model-PLUS/dp/B07BDR5PDW/ref=sr_1_9?s=electronics&ie=UTF8&qid=1524738980&sr=1-9&keywords=raspberry+pi+3&dpID=41bqUv%252BKc8L&preST=_SX300_QL70_&dpSrc=srch](Raspberry Pi 3 Model B+)
 -[https://www.amazon.es/OSOYOO-Raspberry-Electronic-Learning-Beginner/dp/B074YZMRC1/ref=sr_1_1?s=electronics&ie=UTF8&qid=1524739071&sr=1-1&keywords=Ultimate+Starter+Kit+de+la+Raspberry+Pi&dpID=61SV3%252BDv2iL&preST=_SY300_QL70_&dpSrc=srch)](Componentes del Ultimate Starter Kit de la Raspberry Pi)
 -[https://elinux.org/RPi_USB_Webcams](WebCam compatible para la Raspberry)

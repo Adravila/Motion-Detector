@@ -21,7 +21,11 @@ Sistema dedicado para la detección de objectos con un sensor de movimiento Ardu
 
 ## Instalación de los componentes de la Raspberry Pi
 Por completar.
-
+## Creación de apps a partir de distintas API
+### API de imgur
+Por completar
+### API de Twitter
+Por completar
 ## Acceso a la Raspberry Pi
 ### Configuración de la red
 Para ello tendremos que instalar en una tarjeta microSD el SO Raspbian, una vez hecho tendremos que añadir dos ficheros de configuración durante el boot. Nos situamos en /media/usuario/boot para añadir los siguientes ficheros:
@@ -54,7 +58,7 @@ ssh pi@tu_ip_local
 ```
 La contraseña por defecto será raspberry.
 
-## Código Python necesario para la ejecución del ESB Mule y la detección de movimiento
+### Código Python necesario para la ejecución del ESB Mule y la detección de movimiento
 
 Se debe crear una carpeta en el directorio /home/pi llamado *motionDetector*, dentro del directorio se debe crear dos ficheros necesarios, uno dentro de al ejecución del app *motiondetector* de Mule y otro independientemente para detectar el movimiento y lanzar la petición a la dirección *http://localhost:8081/update*.
 
@@ -152,7 +156,7 @@ def ImgUR():
 result = ImgUR()
 ```
 
-## Configurando el Standalone de Mule y su ejecución.
+### Configurando el Standalone de Mule y su ejecución.
 Standalone Mule 3.9.0
 
 https://developer.mulesoft.com/download-mule-esb-runtime

@@ -52,6 +52,8 @@ static domain_name_servers=192.168.0.1
 ```
 Esto ya dependerá de la red que dispongas.
 
+En caso de que no se detecte la dirección ip escrita de forma estática, ya sea porque quizás está accediendo a una intefaz distinta (en vez de wlan0), escribimos ``` nmap 192.168.0.0/24``` por ejemplo, para localizar todas las direcciones IPs de dicha red.
+
 Una vez listo entramos por la terminal, escribiendo:
 ```
 ssh pi@tu_ip_local

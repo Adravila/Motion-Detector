@@ -7,12 +7,13 @@ Sistema dedicado para la detección de objectos con un sensor de movimiento Ardu
 - Esperanza Cano Canalejas
 ## ¿Qué hemos utilizado?
 ### Hardware:
-- Sensor de movimiento (Arduino)
+- Sensor de movimiento (Arduino) ![](https://www.amazon.es/Neuftech-Sensor-Motion-Infrarrojos-Piroelectricidad/dp/B01C6O9C38/ref=sr_1_1?ie=UTF8&qid=1524738515&sr=8-1&keywords=sensor+de+movimiento+arduino)
+
 - Raspberry Pi 3 Model B+
 - Componentes del Ultimate Starter Kit de la Raspberry Pi
 - WebCam compatible para la Raspberry
 
-### Sofware:
+### Software:
 - Raspbian
 - Python 2.7
 - API de imgurpython

@@ -7,17 +7,17 @@ Sistema dedicado para la detección de objectos con un sensor de movimiento Ardu
 - Esperanza Cano Canalejas
 ## ¿Qué hemos utilizado?
 ### Hardware:
--[Sensor de movimiento Arduino](https://www.amazon.es/Neuftech-Sensor-Motion-Infrarrojos-Piroelectricidad/dp/B01C6O9C38/ref=sr_1_1?ie=UTF8&qid=1524738515&sr=8-1&keywords=sensor+de+movimiento+arduino)
--[Raspberry Pi 3 Model B+](https://www.amazon.es/Raspberry-Pi-RPI-Model-PLUS/dp/B07BDR5PDW/ref=sr_1_9?s=electronics&ie=UTF8&qid=1524738980&sr=1-9&keywords=raspberry+pi+3&dpID=41bqUv%252BKc8L&preST=_SX300_QL70_&dpSrc=srch)
--[Componentes del Ultimate Starter Kit de la Raspberry Pi](https://www.amazon.es/OSOYOO-Raspberry-Electronic-Learning-Beginner/dp/B074YZMRC1/ref=sr_1_1?s=electronics&ie=UTF8&qid=1524739071&sr=1-1&keywords=Ultimate+Starter+Kit+de+la+Raspberry+Pi&dpID=61SV3%252BDv2iL&preST=_SY300_QL70_&dpSrc=srch))
--[WebCam compatible para la Raspberry](https://elinux.org/RPi_USB_Webcams)
+- [Sensor de movimiento Arduino](https://www.amazon.es/Neuftech-Sensor-Motion-Infrarrojos-Piroelectricidad/dp/B01C6O9C38/ref=sr_1_1?ie=UTF8&qid=1524738515&sr=8-1&keywords=sensor+de+movimiento+arduino)
+- [Raspberry Pi 3 Model B+](https://www.amazon.es/Raspberry-Pi-RPI-Model-PLUS/dp/B07BDR5PDW/ref=sr_1_9?s=electronics&ie=UTF8&qid=1524738980&sr=1-9&keywords=raspberry+pi+3&dpID=41bqUv%252BKc8L&preST=_SX300_QL70_&dpSrc=srch)
+- [Componentes del Ultimate Starter Kit de la Raspberry Pi](https://www.amazon.es/OSOYOO-Raspberry-Electronic-Learning-Beginner/dp/B074YZMRC1/ref=sr_1_1?s=electronics&ie=UTF8&qid=1524739071&sr=1-1&keywords=Ultimate+Starter+Kit+de+la+Raspberry+Pi&dpID=61SV3%252BDv2iL&preST=_SY300_QL70_&dpSrc=srch))
+- [WebCam compatible para la Raspberry](https://elinux.org/RPi_USB_Webcams)
 
 ### Software:
-- Raspbian
-- Python 2.7
-- API de imgurpython
-- API de Twitter
-- Mule Standalone 3.9.0
+- [Raspbian](https://www.raspberrypi.org/downloads/raspbian/)
+- [Librería de Python de imgurpython](https://github.com/Imgur/imgurpython)
+- [API de imgur](https://api.imgur.com/)
+- [APP de Twitter](https://apps.twitter.com/)
+- [Mule Standalone 3.9.0](https://developer.mulesoft.com/download-mule-esb-runtime)
 
 ## Instalación de los componentes de la Raspberry Pi
 Por completar.

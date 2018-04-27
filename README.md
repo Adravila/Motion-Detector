@@ -65,7 +65,7 @@ La contraseña por defecto será raspberry.
 Se debe crear una carpeta en el directorio /home/pi llamado *motionDetector*, dentro del directorio se debe crear dos ficheros necesarios, uno dentro de al ejecución del app *motiondetector* de Mule y otro independientemente para detectar el movimiento y lanzar la petición a la dirección *http://localhost:8081/update*.
 
 File: movementmonitor.py                                                                      
-```
+```python
 import urllib2
 import RPi.GPIO as GPIO
 import time  
@@ -91,7 +91,7 @@ except KeyboardInterrupt:
     GPIO.cleanup()
 ```
 File: imgurScript.py                                                                      
-```
+```python
 import imgurpython
 from imgurpython import ImgurClient
 from datetime import datetime
@@ -132,7 +132,7 @@ result = ImgUR()
 Para hacerlo más simple sin necesidad de crear un álbum, hacer diez capturas de pantalla y subir esas diez imágenes en imgur, en su lugar, eliminamos la opción de crear un álbum y se sube una única foto. Así se realizará todo el proceso de manera más rápida y óptima.
 
 File: imgurScript.py (version 2.0)                                                                  
-```
+```python
 import imgurpython
 from imgurpython import ImgurClient
 from datetime import datetime

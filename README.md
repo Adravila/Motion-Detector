@@ -21,11 +21,12 @@ Sistema dedicado para la detección de objectos con un sensor de movimiento Ardu
 
 ## Instalación de los componentes de la Raspberry Pi
 ### Insersión de pines GPIO en Breadboard + sensor de movimiento
-![](http://i.imgur.com/5S0eWoE.png)
+![](http://i.imgur.com/Hpd5gwK.png)
 En esta imagen podremos ver los slots correspondientes de la tarjeta GPIO (ojo, hemos utilizado este modelo en concreto, puede variar algunos IDs descritos en la placa). Como podéis ver, hemos señalado qué pines vamos a utilizar:
 - Utilizaremos el PIN 14 para encender/apagar el LED cuando enviamos datos en él.
 - Para el detector de movimiento insertamos tres cables DuPont (macho-macho) para cada uno de los pines correspondientes. Uno en el PIN 18 que será el que enviará datos (output) del sensor de movimiento a la Raspberry Pi, GND que será para la toma de tierra y 5v0 para la corriente.
-![](https://adravilag.imgur.com/all/z)
+
+![](http://i.imgur.com/PcNAd1g.png)
 Ahora si queremos ver cuáles son los pines que corresponde a los tres cables DuPont, debemos quitar la capsula del sensor de movimiento y mirar en su interior qué pines corresponden cada una de estos, de izquierda a derecha serían:
  - Toma de tierra
  - Envio de datos

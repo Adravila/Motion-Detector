@@ -218,7 +218,7 @@ Ejecutamos mule vía sh, añadimos dos argumentos: uno para arrancar la aplicaci
 mule@raspberrypi:/opt/mule/mule-standalone-3.9.0/bin$ sudo ./mule -app motiondetection -M-Dpython.path=/home/pi/.local/lib/python2.7/site-packages
 ```
 
-Una vez hecho esto, el archivo comprimido *proyecto.zip* se descomprimirá en el directorio */app* de *mule-standalone-3.9.0*.
+Una vez hecho esto, el archivo comprimido *motiondetection.zip* se descomprimirá en el directorio */app* de *mule-standalone-3.9.0*.
 Cuando aparezca la siguiente imagen, se debe ejecutar otro terminal (se tendría que acceder otro terminal por ssh) el comando ```python movementmonitor.py``` para activar la detección de movimiento.
 
 ## Fuentes externas

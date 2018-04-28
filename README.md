@@ -103,7 +103,7 @@ La contraseña por defecto será raspberry.
 
 ### Código Python necesario para la ejecución del ESB Mule y la detección de movimiento
 
-Se debe crear una carpeta en el directorio /home/pi llamado *motionDetector*, dentro del directorio se debe crear dos ficheros necesarios, uno dentro de al ejecución del app *motiondetector* de Mule y otro independientemente para detectar el movimiento y lanzar la petición a la dirección *http://localhost:8081/update*.
+Se debe crear una carpeta en el directorio /home/pi llamado *motionDetector*, dentro del directorio se debe crear dos ficheros necesarios, uno dentro de al ejecución del app *motiondetection* de Mule y otro independientemente para detectar el movimiento y lanzar la petición a la dirección *http://localhost:8081/update*.
 
 File: movementmonitor.py                                                                      
 ```python
@@ -215,7 +215,7 @@ Pondremos nuestro proyecto comprimido con un .zip, no será necesario descomprim
 
 Ejecutamos mule vía sh, añadimos dos argumentos: uno para arrancar la aplicación y el otro para que ejecute el código de Python en Cpython en lugar de Jpython, para que podamos utilizar los módulos de imgurpython y requests necesarios.
 ```
-mule@raspberrypi:/opt/mule/mule-standalone-3.9.0/bin$ sudo ./mule -app proyecto -M-Dpython.path=/home/pi/.local/lib/python2.7/site-packages
+mule@raspberrypi:/opt/mule/mule-standalone-3.9.0/bin$ sudo ./mule -app motiondetection -M-Dpython.path=/home/pi/.local/lib/python2.7/site-packages
 ```
 
 Una vez hecho esto, el archivo comprimido *proyecto.zip* se descomprimirá en el directorio */app* de *mule-standalone-3.9.0*.

@@ -30,9 +30,9 @@ En esta imagen podremos ver los slots correspondientes de la tarjeta GPIO (ojo, 
 ![](http://i.imgur.com/PcNAd1g.png)
 
 Ahora si queremos ver cuáles son los pines que corresponde a los tres cables DuPont, debemos quitar la capsula del sensor de movimiento y mirar en su interior qué pines corresponden cada una de estos, de izquierda a derecha serían:
- - Toma de tierra
- - Envio de datos
  - Corriente (+5V)
+ - Envío de datos
+ - Toma de tierra
  
 ## Creación de apps a partir de distintas API
 ### API de imgur

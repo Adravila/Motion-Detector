@@ -61,7 +61,12 @@ print(credentials)
 ```
 
 ### API de Twitter
-Por completar
+Al igual que todo el proceso para obtener la clave API de imgur, debemos seguir una serie de pasos:
+- Creamos nuestra aplicación en https://apps.twitter.com/
+- Una vez creada, nos vamos a la sección de 'Keys and Access Tokens'
+- Necesitaremos las claves de Consumer Key (API Key), Consumer Secret (API Secret). 
+- Click en *Create my acccess token* para obtener Access Token y Access Token Secret.
+https://apps.twitter.com/
 ## Acceso a la Raspberry Pi
 ### Configuración de la red
 Para ello tendremos que instalar en una tarjeta microSD el SO Raspbian, una vez hecho tendremos que añadir dos ficheros de configuración durante el boot. Nos situamos en /media/usuario/boot para añadir los siguientes ficheros:

@@ -36,7 +36,30 @@ Ahora si queremos ver cuáles son los pines que corresponde a los tres cables Du
  
 ## Creación de apps a partir de distintas API
 ### API de imgur
-Por completar
+Debemos seguir una serie de pasos para crear nuestra APP de imgur y obtener la clave de API:
+- Necesitamsos registrarnos en imgur https://imgur.com/
+- Una vez creada la cuenta de imgur crearemos nuestra propia aplicación https://api.imgur.com/oauth2/addclient. 
+- Durante el proceso del registro de la APP, el tipo de autenticación marcamos 'OAuth 2 authorization without a callback URL', lo siguiente sería insertar nuestro correo electrónico y la descripción de la APP.
+- Una vez registrada la aplicación, nos vamos a la configuración de la cuenta y a la sección de apps para obtener  el **Client ID** 	**ClientSecret** https://imgur.com/account/settings/apps
+- Finalmente, si tenemos Python 2.7 instalado en nuestra PC, debemos insertar en nuestro terminal las siguientes líneas para obtener el **access_token** y **refresh_token**.
+
+```
+python 
+>> from imgurpython import ImgurClient
+client_id = 'YOUR CLIENT ID'
+client_secret = 'YOUR CLIENT SECRET'
+client = ImgurClient(client_id, client_secret)
+authorization_url = client.get_auth_url('pin')
+print(authorization_url)
+
+# Con esto nos generará un enlace de la página para obtener dicho PIN
+
+credentials = client.authorize('PIN obtenido para la autenticación', 'pin')
+print(credentials)
+
+#Obtenemos el 'access_token' y 'refresh_token'
+```
+
 ### API de Twitter
 Por completar
 ## Acceso a la Raspberry Pi

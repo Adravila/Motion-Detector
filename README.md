@@ -20,7 +20,7 @@ Sistema dedicado para la detección de objectos con un sensor de movimiento Ardu
 - [Mule Standalone 3.9.0](https://developer.mulesoft.com/download-mule-esb-runtime)
 
 ## Instalación de los componentes de la Raspberry Pi
-### Insersión de pines GPIO en Breadboard + sensor de movimiento
+### Inserción de pines GPIO en Breadboard + sensor de movimiento
 ![](http://i.imgur.com/Hpd5gwK.png)
 
 En esta imagen podremos ver los slots correspondientes de la tarjeta GPIO (ojo, hemos utilizado este modelo en concreto, puede variar algunos IDs descritos en la placa). Como podéis ver, hemos señalado qué pines vamos a utilizar:

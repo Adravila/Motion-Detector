@@ -2,8 +2,8 @@
 Sistema dedicado para la detección de objectos con un sensor de movimiento Arduino en el cuál realiza una captura de imagen a partir de una webcam, posteriormente lo sube a imgur y finalmente se publica un mensaje a partir de una cuenta de Twitter con la fecha, hora y la imagen con el enlace de imgur.
 
 ## Autores del trabajo
-- Adrián Dávila Guerra
-- Esperanza Cano Canalejas
+- Cano Canalejas, Esperanza
+- Dávila Guerra, Adrián
 ## ¿Qué hemos utilizado?
 ### Hardware:
 - [Sensor de movimiento Arduino](https://www.amazon.es/Neuftech-Sensor-Motion-Infrarrojos-Piroelectricidad/dp/B01C6O9C38/ref=sr_1_1?ie=UTF8&qid=1524738515&sr=8-1&keywords=sensor+de+movimiento+arduino)

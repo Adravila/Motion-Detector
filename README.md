@@ -1,7 +1,6 @@
 # Motion-Detector
 Sistema dedicado para la detección de objectos con un sensor de movimiento Arduino en el cuál realiza una captura de imagen a partir de una webcam, posteriormente lo sube a imgur y finalmente se publica un mensaje a partir de una cuenta de Twitter con la fecha, hora y la imagen con el enlace de imgur.
 
-![](http://i.imgur.com/5S0eWoE.png)
 ## Autores del trabajo
 - Adrián Dávila Guerra
 - Esperanza Cano Canalejas

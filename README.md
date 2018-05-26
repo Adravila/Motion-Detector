@@ -169,7 +169,7 @@ def ImgUR():
                         return strftime("%a, %d %b %Y %H:%M:%S", gmtime())+ " - "+str+" https://imgur.com/"+imagen['id']
 result = ImgUR()
 ```
-Para hacerlo más simple sin necesidad de crear un álbum, hacer diez capturas de pantalla y subir esas diez imágenes en imgur, en su lugar, eliminamos la opción de crear un álbum y se sube una única foto. Así se realizará todo el proceso de manera más rápida y óptima.
+Para hacerlo más simple sin necesidad de crear un álbum, hacer nueve capturas de pantalla y subir esas diez imágenes en imgur, en su lugar, eliminamos la opción de crear un álbum y se sube una única foto. Así se realizará todo el proceso de manera más rápida y óptima.
 
 File: imgurScript.py (version 2.0)                                                                  
 ```python

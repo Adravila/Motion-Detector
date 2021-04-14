@@ -36,7 +36,7 @@ Ahora si queremos ver cuáles son los pines que corresponde a los tres cables Du
 ## Creación de apps a partir de distintas API
 ### API de imgur
 Debemos seguir una serie de pasos para crear nuestra APP de imgur y obtener la clave de API:
-- Necesitamsos registrarnos en imgur https://imgur.com/
+- Es necesario registrarse en imgur https://imgur.com/
 - Una vez creada la cuenta de imgur crearemos nuestra propia aplicación https://api.imgur.com/oauth2/addclient. 
 - Durante el proceso del registro de la APP, el tipo de autenticación marcamos 'OAuth 2 authorization without a callback URL', lo siguiente sería insertar nuestro correo electrónico y la descripción de la APP.
 - Una vez registrada la aplicación, nos vamos a la configuración de la cuenta y a la sección de apps para obtener  el **Client ID** 	**ClientSecret** https://imgur.com/account/settings/apps
